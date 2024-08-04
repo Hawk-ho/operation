@@ -5,3 +5,27 @@ body{
 
   background-color: aquamarine;
 }
+.like{
+  width: 100px;        /* Adjust the size as needed */
+  height: 100px;       /* Keep width and height the same for a perfect circle */
+  border: none;        /* Remove the default border */
+  border-radius: 50%;  /* Makes the button circular */
+  cursor: pointer;     /* Change cursor to pointer on hover */
+  outline: none;       /* Remove outline on focus */
+  display: inline-block; /* Ensure buttons align correctly */
+  margin: 10px;        /* Add some space between buttons */
+  background-color: blue;
+}
+.dislike{
+  width: 100px;        
+  height: 100px;       
+  border: none;        
+  border-radius: 50%;  
+  cursor: pointer;     
+  outline: none;       
+  display: inline-block; 
+  margin: 10px;        
+  transition: background-color 0.3s; 
+  background-color: red;
+}
+
